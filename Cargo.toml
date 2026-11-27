@@ -2,12 +2,18 @@
 name = "olympe"
 version = "0.1.0"
 edition = "2024"
-description = "The olympe command-line tool"
+description = "Run a team of specialized Claude agents on a project, and improve the team from every run"
 
 [dependencies]
 anyhow = "1.0.105"
 clap = { version = "4.6.10", features = ["derive"] }
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+serde_yaml_ng = "0.10.0"
+toml = "1.2.3"
+uuid = { version = "1", features = ["v4"] }
 
 [dev-dependencies]
 assert_cmd = "2.2.2"
 predicates = "3.1.4"
+tempfile = "3.27.0"

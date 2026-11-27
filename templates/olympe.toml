@@ -1,0 +1,24 @@
+# olympe project. The name of this folder is the project's name; each folder
+# beside this file that holds a process.md is one of its processes.
+version = 1
+
+# The project's folder: where its teams work. `olympe <process>` run in this
+# folder, or below it, finds this project.
+root = {root}
+
+# The project's akashic knowledge base: a folder, relative to this file or
+# absolute, or a name from `akashic kb list`.
+kb = {kb}
+
+[claude]
+# Claude Code binary to run. Default: "claude" from PATH.
+# bin = "claude"
+
+# Model alias or full name for the lead and for olympe's own Claude runs.
+# Default: your Claude Code default. A specialist can name its own model.
+# model = "opus"
+
+# Spending cap in US dollars for each of olympe's own Claude runs:
+# `design --auto`, `improve` and the retrospective. The sessions in the
+# terminal, the designer's and the lead's, have no cap.
+# max_budget_usd = 2.0
