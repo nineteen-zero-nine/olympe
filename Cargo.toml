@@ -1,0 +1,13 @@
+[package]
+name = "olympe"
+version = "0.1.0"
+edition = "2024"
+description = "The olympe command-line tool"
+
+[dependencies]
+anyhow = "1.0.105"
+clap = { version = "4.6.10", features = ["derive"] }
+
+[dev-dependencies]
+assert_cmd = "2.2.2"
+predicates = "3.1.4"
